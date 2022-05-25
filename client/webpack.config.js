@@ -29,6 +29,7 @@ module.exports = () => {
         name: 'Text Editor',
         publicPath: '/',
         start_url: '/',
+        fingerprints: false,
         icons: [
           {
             src: path.resolve('./src/images/logo.png'),
